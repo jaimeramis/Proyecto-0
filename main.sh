@@ -37,12 +37,12 @@ while true; do
 	    break
 	    ;;
 
-	h) echo "Press 1 to access FIGHT MODE"
-	   echo "Press 2 to access CHARACTER LIST"
+	h) echo -e "\e[1;43mPress 1 to access FIGHT MODE\e[0m"
+	   echo -e "\e[1;43mPress 2 to access CHARACTER LIST\e[0m"
             ;;
 
         *)
-	   echo " "            
+	   echo " "
 	   echo -e "\e[41mInvalid option. Select a correct one\e[0m"
            menu=""
             ;;
